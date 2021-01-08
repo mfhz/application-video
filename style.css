@@ -92,7 +92,9 @@ body {
           -webkit-transform: scale(1.5);
                   transform: scale(1.5);
           opacity: 1; }
-      body .carousel .carousel__container .carousel__item {
+          body .carousel .carousel__container:hover .carousel-item:hover .carousel-item__details {
+            opacity: 1; }
+      body .carousel .carousel__container .carousel-item {
         background-color: salmon;
         width: 200px;
         height: 250px;
@@ -104,9 +106,28 @@ body {
         -webkit-transition: 450ms all;
         transition: 450ms all;
         -webkit-transform-origin: center left;
-                transform-origin: center left; }
-        body .carousel .carousel__container .carousel__item:hover ~ .carousel__item {
+                transform-origin: center left;
+        position: relative; }
+        body .carousel .carousel__container .carousel-item:hover ~ .carousel-item {
           -webkit-transform: translate3d(100px, 0, 0);
                   transform: translate3d(100px, 0, 0); }
+        body .carousel .carousel__container .carousel-item .carousel-item__img {
+          width: inherit;
+          height: inherit;
+          -o-object-fit: cover;
+             object-fit: cover; }
+        body .carousel .carousel__container .carousel-item .carousel-item__details {
+          background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0)));
+          background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+          font-size: 10px;
+          opacity: 0;
+          -webkit-transition: 450ms opacity;
+          transition: 450ms opacity;
+          padding: 10px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
