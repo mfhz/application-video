@@ -89,9 +89,15 @@ body {
         color: white; }
       body .search .search__input::placeholder {
         color: white; }
+  body .categories__title {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    padding-left: 30px;
+    width: 100%; }
   body .carousel {
     width: 100%;
-    overflow: scroll;
+    overflow: auto;
     position: relative;
     padding: 30px; }
     body .carousel .carousel__container {
@@ -141,5 +147,21 @@ body {
           left: 0;
           right: 0;
           bottom: 0; }
+  body .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100px;
+    width: 100%; }
+    body .footer a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      padding-left: 30px; }
+      body .footer a:hover {
+        text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */
