@@ -53,12 +53,25 @@ body {
               text-decoration: underline; }
       body .header .header__nav:hover .header__nav--menu {
         display: block; }
-  body .main {
-    height: 300px; }
-    body .main .main__title {
+  body .search {
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    body .search .search__title {
       color: white;
       font-size: 35px; }
-    body .main .main__input {
+    body .search .search__input {
       height: 60px;
       width: 70%;
       margin-top: 25px;
@@ -69,13 +82,13 @@ body {
       outline-style: none;
       color: white;
       background-color: rgba(255, 255, 255, 0.1); }
-      body .main .main__input::-webkit-input-placeholder {
+      body .search .search__input::-webkit-input-placeholder {
         color: white; }
-      body .main .main__input:-ms-input-placeholder {
+      body .search .search__input:-ms-input-placeholder {
         color: white; }
-      body .main .main__input::-ms-input-placeholder {
+      body .search .search__input::-ms-input-placeholder {
         color: white; }
-      body .main .main__input::placeholder {
+      body .search .search__input::placeholder {
         color: white; }
   body .carousel {
     width: 100%;
