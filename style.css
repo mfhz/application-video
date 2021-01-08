@@ -20,39 +20,38 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    padding: 0 50px; }
     body .header .header__img {
       width: 250px; }
-    body .header .header__nav {
-      margin-right: 50px; }
-      body .header .header__nav .header__nav--profile {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        margin-bottom: 8px;
-        cursor: pointer; }
-        body .header .header__nav .header__nav--profile img {
-          margin-right: 10px; }
-        body .header .header__nav .header__nav--profile p {
-          color: white; }
-      body .header .header__nav .header__nav--menu {
-        width: 100px;
-        text-align: right;
-        position: absolute;
-        display: none; }
-        body .header .header__nav .header__nav--menu li {
-          list-style: none;
-          margin-bottom: 10px; }
-          body .header .header__nav .header__nav--menu li a {
-            color: white;
-            text-decoration: none; }
-            body .header .header__nav .header__nav--menu li a:hover {
-              text-decoration: underline; }
-      body .header .header__nav:hover .header__nav--menu {
-        display: block; }
+    body .header .header__nav .header__nav--profile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-bottom: 8px;
+      cursor: pointer; }
+      body .header .header__nav .header__nav--profile img {
+        margin-right: 10px; }
+      body .header .header__nav .header__nav--profile p {
+        color: white; }
+    body .header .header__nav .header__nav--menu {
+      width: 100px;
+      text-align: right;
+      position: absolute;
+      display: none; }
+      body .header .header__nav .header__nav--menu li {
+        list-style: none;
+        margin-bottom: 10px; }
+        body .header .header__nav .header__nav--menu li a {
+          color: white;
+          text-decoration: none; }
+          body .header .header__nav .header__nav--menu li a:hover {
+            text-decoration: underline; }
+    body .header .header__nav:hover .header__nav--menu {
+      display: block; }
   body .search {
     height: 300px;
     display: -webkit-box;

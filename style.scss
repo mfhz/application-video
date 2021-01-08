@@ -16,13 +16,13 @@ body {
         justify-content: space-between;
         align-items: center;
         margin-bottom: 50px;
+        padding: 0 50px;
 
         .header__img {
             width: 250px;
         }
 
         .header__nav {
-            margin-right: 50px;
             
             .header__nav--profile {
                 display: flex;

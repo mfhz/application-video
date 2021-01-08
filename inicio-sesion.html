@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./inicio-sesion.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src="./assets/logo-platzi.png" alt="Logo">
+        <nav class="header__nav">
+            <div class="header__nav--profile">
+                <img src="./assets/user-icon.png" alt="User">
+                <p>Perfil</p>
+            </div>
+            <ul class="header__nav--menu">
+                <li><a href="#">Cuenta</a></li>
+                <li><a href="#">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login">
+            <div class="login__container">
+                <h2>Inicia sesión</h2>
+                <form class="login__container--form">
+                    <input class="input" type="text" placeholder="Correo">
+                    <input class="input" type="password" placeholder="Constraseña">
+                    <button class="button">Iniciar sesión</button>
+                    <div class="login__container--remember-me">
+                        <label>
+                            <input type="checkbox" id="cbox1" value="checkbox"> Recuérdame
+                        </label>
+                        <a href="#">Olvidé mi contraseña</a>
+                    </div>
+                </form>
+                <div class="login__container--social-media">
+                    <div>
+                        <img src="./assets/google-icon.png" alt="Google">
+                        Inicia sesión con Google
+                    </div>
+                    <div>
+                        <img src="./assets/twitter-icon.png" alt="Google">
+                        Inicia sesión con Twitter
+                    </div>
+                </div>
+                <p class="login__container--register">
+                    No tienes ninguna cuenta cuenta <a href="#">Regístrate</a>
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="#">Términos de uso</a>
+        <a href="#">Declaración de privacidad</a>
+        <a href="#">Centro de ayuda</a>
+    </footer>    
+</body>
+</html>
