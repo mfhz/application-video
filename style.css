@@ -143,10 +143,20 @@ body {
           transition: 450ms opacity;
           padding: 10px;
           position: absolute;
-          top: 0;
           left: 0;
           right: 0;
           bottom: 0; }
+          body .carousel .carousel__container .carousel-item .carousel-item__details .carousel-item__details--icons {
+            width: 20px;
+            margin-bottom: 5px; }
+            body .carousel .carousel__container .carousel-item .carousel-item__details .carousel-item__details--icons img {
+              width: inherit; }
+          body .carousel .carousel__container .carousel-item .carousel-item__details .carousel-item__details--title {
+            color: white;
+            margin-bottom: 3px; }
+          body .carousel .carousel__container .carousel-item .carousel-item__details .carousel-item__details--subtitle {
+            color: white;
+            font-size: 8px; }
   body .footer {
     display: -webkit-box;
     display: -ms-flexbox;
